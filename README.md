@@ -10,4 +10,4 @@ This is a repo for "one-click-setup" for local hosting your kohana app using [va
 
 This will give you a fully usable virtual machine that you can access via `http://www.local-kohana.com/`.
 
-The vagrant file assumes you are using `minion` for your migrations, and will automatically migrate your database up.
+The vagrant file assumes you are using [minion](https://github.com/kohana-minion) for your migrations, and will automatically migrate your database up.
