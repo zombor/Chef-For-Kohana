@@ -40,7 +40,7 @@ To get your app to work with this setup, you'll need this database config:
 	(
 		'type'       => 'mysql',
 		'connection' => array(
-			'hostname'   => '127.0.0.1',
+			'hostname'   => 'localhost',
 			'database'   => 'kohana_local',
 			'username'   => 'root',
 			'password'   => 'root',
