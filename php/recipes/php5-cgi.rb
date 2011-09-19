@@ -18,6 +18,7 @@
 # limitations under the License.
 #
 
+include_recipe "php::module_curl"
 include_recipe "php::module_mysql"
 include_recipe "php::module_sqlite3"
 include_recipe "php::module_memcache"
