@@ -18,7 +18,7 @@ bash "debconf_for_phpmyadmin" do
 end
 package "phpmyadmin"
 
-s = node[:hostname]
+s = "local-kohana"
 site = {
   :name => s, 
   :host => "www.#{s}.com", 
