@@ -2,7 +2,7 @@ require_recipe "apt"
 require_recipe "apache2"
 require_recipe "mysql::server"
 require_recipe "php::php5"
-require_recipe "behat"
+#require_recipe "behat"
 
 # Some neat package (subversion is needed for "subversion" chef ressource)
 %w{ debconf php5-xdebug subversion  }.each do |a_package|
