@@ -6,7 +6,7 @@ This is a repo for "one-click-setup" for local hosting your kohana app using [va
 
  1. Sub-module this repo into your `cookbooks/` directory.
  2. symlink `cookbooks/Vagrantfile` to `Vagrantfile`
- 3. `vagrant-up`
+ 3. `vagrant up`
 
 This will give you a fully usable virtual machine that you can access via `http://www.local-kohana.com/`.
 
