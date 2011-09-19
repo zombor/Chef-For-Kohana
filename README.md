@@ -31,3 +31,23 @@ Here's the list of currently installed software:
 ### Contributing
 
 Think you can help? Fork this repo and send me a pull request.
+
+## Database Configuration
+
+To get your app to work with this setup, you'll need this database config:
+
+	'default' => array
+	(
+		'type'       => 'mysql',
+		'connection' => array(
+			'hostname'   => '127.0.0.1',
+			'database'   => 'kohana_local',
+			'username'   => 'root',
+			'password'   => 'root',
+			'persistent' => FALSE,
+		),
+		'table_prefix' => '',
+		'charset'      => 'utf8',
+		'caching'      => FALSE,
+		'profiling'    => TRUE,
+	),
