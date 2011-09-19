@@ -61,7 +61,7 @@ end
 
 # migrate
 execute "migrate" do
-  command "cd /vagrant && ./minion db:migrate"
+  command "cd /vagrant && ./minion migrations:run"
   action :run
   ignore_failure true
 end

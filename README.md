@@ -19,7 +19,14 @@ Here's the list of currently installed software:
  - Ubuntu Server 10.04 Lucid
  - Apache 2.2.x
  - php 5.3.x
+   - php5-mysql
+   - php5-memcache
+   - php5-gd
+   - php-pear
+   - php5-xdebug
  - MySQL 5.2.x
+ - Subversion
+ - phpmyadmin
 
 ### Contributing
 
