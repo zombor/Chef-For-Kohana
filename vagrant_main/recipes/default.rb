@@ -53,7 +53,7 @@ end
 # create default database
 execute "add-db" do
   command "/usr/bin/mysql -u root -p#{node[:mysql][:server_root_password]} -e \"" +
-      "CREATE DATABASE mkl;\" " +
+      "CREATE DATABASE kohana_local;\" " +
       "mysql"
   action :run
   ignore_failure true
