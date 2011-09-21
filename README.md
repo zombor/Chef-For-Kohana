@@ -26,8 +26,6 @@ Here's the list of currently installed software:
    - php-pear
    - php5-xdebug
  - MySQL 5.2.x
- - Subversion
- - phpmyadmin
 
 ### Contributing
 

@@ -1,3 +1,0 @@
-[submodule "phpunit"]
-	path = phpunit
-	url = https://github.com/msonnabaum/chef-phpunit.git
