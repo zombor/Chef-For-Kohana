@@ -3,6 +3,7 @@ require_recipe "apache2"
 require_recipe "mysql::server"
 require_recipe "php"
 require_recipe "php::module_curl"
+require_recipe "php::module_mysql"
 require_recipe "phpunit"
 
 # Some neat package (subversion is needed for "subversion" chef ressource)
